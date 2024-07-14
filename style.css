@@ -1,0 +1,115 @@
+.open-sans-normal {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    margin: 30px 100px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn-praimary{
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px ;
+    border-radius: 5px;
+    margin-top: 25px;
+    
+}
+.background-container{
+  background-image: url(./B10A1-Challenge-Begins-main/assets/Group.png); 
+  background-repeat:no-repeat;
+  background-position: top center; 
+  margin-left:100px;
+  padding-bottom:10px;
+
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.developer{
+  font-size: larger;
+  color:rgb(79, 90, 125) ;
+  text-align: right;
+}
+.lorem{
+  color: rgb(104, 100, 107);
+  text-align: right;
+  transform: translate(10%, -30%);
+  
+  
+  display: inline-block;
+  
+}
+
+ .text-overlay{
+  
+    position: absolute; 
+    top: 10%; 
+    left: 50%;
+    transform: translate(-60%, 150%);
+   font-size: 24px;
+   
+    
+    
+}
+.btn-praimary-new{
+
+  background-color: rgba(18, 0, 37, 0.396);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px ;
+    border-radius: 5px;
+    margin-top: 25px;
+  
+    
+}
+
+.center-text{
+  text-align: center;
+  margin-top: 200px;
+  font-style:calc() ;
+  color: rgb(39, 39, 40);
+  margin-bottom: 20%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  
+       
+} 
+.double-line{
+  
+  font-weight: 500;
+  text-decoration: wavy;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  display: inline-block;
+  max-width: 800px;
+  padding: 60px;
+  transform: translate(-50%, -50%);
+  color: rgb(8, 30, 58);
+  font: bold;
+  box-sizing: border-box; 
+        
+    
+    
+}
+
+.section-title{
+  display: flex;
+  
+}
+
+
+.skill-container{
+  display: flex;
+  gap: 24px;
+}
+.skill{
+  padding: 30px ;
+  border-radius:5px; 
+  
+
+}
